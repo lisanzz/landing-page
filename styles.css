@@ -6,10 +6,18 @@ claro de lo que no es la quote: #CED89E
  quote: #ADCF9F
  fuentes dark : #1A4D2E
 */
+
+h2
+{
+font-size: 40px;
+
+
+}
 a
 {
 color: black;
-
+font-size: 20px;
+text-decoration: none;
 }
 .dark
 {
@@ -22,17 +30,40 @@ flex: 1;
 display: flex;
 justify-content: space-between;
 align-items: center;
+gap: 20px;
+margin-bottom: 70px;
 }
-.header-logo
-{
-margin-left: 200px;
 
-}
 .hlinks
 {
 display: flex;
-margin-right: 250px;
 gap: 40px;
+margin-right: 70px;
 
+
+}
+.dark-image
+{
+    max-width: 400px;
+    padding-bottom: 60px;
+    
+}
+.dark-content
+{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.main-content
+{
+    flex-wrap: wrap;
+    max-width: 300px;
+
+
+}
+.logo
+{
+    margin-left: 70px;
 
 }
