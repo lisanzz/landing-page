@@ -7,17 +7,18 @@ claro de lo que no es la quote: #CED89E
  fuentes dark : #1A4D2E
 */
 
-h2
+p
 {
-font-size: 40px;
-
+    font-family: 'Roboto', sans-serif;
 
 }
+
 a
 {
 color: black;
 font-size: 20px;
 text-decoration: none;
+font-family: 'Roboto', sans-serif;
 }
 .dark
 {
@@ -44,7 +45,7 @@ margin-right: 70px;
 }
 .dark-image
 {
-    max-width: 400px;
+    /*max-width: 400px;*/
     padding-bottom: 60px;
     
 }
@@ -64,6 +65,12 @@ margin-right: 70px;
 }
 .logo
 {
-    margin-left: 70px;
+    margin-left: 70px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dark-button
+{
+    font-family: 'Roboto', sans-serif;
 
 }
