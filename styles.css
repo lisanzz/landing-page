@@ -1,0 +1,38 @@
+/* 
+COLORES: 
+oscuro del primer cuadrado y footer:#76BA99
+fuentes: #FFDCAE
+claro de lo que no es la quote: #CED89E
+ quote: #ADCF9F
+ fuentes dark : #1A4D2E
+*/
+a
+{
+color: black;
+
+}
+.dark
+{
+background-color: #76BA99;
+flex: 1;
+
+}
+.header
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-logo
+{
+margin-left: 200px;
+
+}
+.hlinks
+{
+display: flex;
+margin-right: 250px;
+gap: 40px;
+
+
+}
