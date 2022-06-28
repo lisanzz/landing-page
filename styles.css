@@ -147,7 +147,7 @@ max-width: 140px;
 flex-wrap: wrap;
 font-size: 15px;
 text-align: center;
-
+padding-bottom: 60px;
 }
 
 .t1, .t2, .t3, .t4
@@ -158,18 +158,49 @@ border-radius: 20px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* END OF CARDS */
+
+/* BEGINNING OF QUOTES */
+
+.quote
+{
+background-color: #CED89E;
+padding: 60px 0;
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+}
+.quote-title
+{
+    font-weight: 500;
+    font-size: 32px;
+    max-width: 900px;
+    flex-wrap: wrap;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-author
+{
+    margin-top: 0;
+    font-weight: 700;
+    margin-left: 600px;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* END OF QUOTES */
