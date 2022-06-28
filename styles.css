@@ -8,6 +8,7 @@ claro de lo que no es la quote: #CED89E
 */
 
 
+/* BEGINNING OF HEADER*/
 body
 {
 background-color: #0e1818;
@@ -40,7 +41,7 @@ display: flex;
 justify-content: space-between;
 align-items: flex-start;
 margin-bottom: 10px;
-
+flex: 1;
 }
 
 .hlinks
@@ -56,7 +57,7 @@ margin-top: 15px;
 .dark-image
 {
    
-    padding-bottom: 60px;
+    padding-bottom: 140px;
     border: darkgreen;
     border-radius: 20px;
     margin-top: 35px;
@@ -68,6 +69,7 @@ margin-top: 15px;
     display: flex;
     justify-content: space-around;
     align-self: flex-start;
+    flex: 1;
 }
 .main-content
 {
@@ -108,3 +110,66 @@ margin-top: 15px;
 font-size: 20px;
 
 }
+/* END OF HEADER*/
+
+
+/* BEGGINING OF CARDS*/
+
+
+.segunda-parte
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+
+.tarjetas
+{
+    margin-top: 50px;
+display: flex;
+gap: 190px;
+
+}
+
+.seg-titulo
+{
+color: bisque;
+font-size: 35px;
+}
+
+.tarj-sub
+{
+color:bisque;
+max-width: 140px;
+flex-wrap: wrap;
+font-size: 15px;
+text-align: center;
+
+}
+
+.t1, .t2, .t3, .t4
+{
+border-radius: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END OF CARDS */
