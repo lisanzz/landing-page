@@ -1,3 +1,3 @@
 # landingpage
 
-Landing page aiming at testing my basic html and css skills using flexbox
+Landing page aiming at testing my  html and css skills using flexbox
