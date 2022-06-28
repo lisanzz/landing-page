@@ -201,7 +201,7 @@ align-items: center;
 .sign-up
 {
 display: flex;
-padding: 90px ;
+padding: 95px ;
 justify-content: center;
 }
 
@@ -236,11 +236,23 @@ justify-content: center;
     background-color: #084754;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
 /* END OF SIGN-UP */
+
+/* BEGINNING OF FOOTER */
+.footer
+{
+background-color: #76BA99;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+/* END OF FOOTER */
