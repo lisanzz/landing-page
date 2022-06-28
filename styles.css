@@ -29,6 +29,7 @@ font-family: 'Roboto', sans-serif;
 text-shadow: 1px 1px 1px #185a37;
 
 }
+
 .dark
 {
 background-color: #76BA99;
@@ -93,11 +94,12 @@ margin-top: 15px;
 {
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    color: white;
+    color: bisque;
     width: 90px;
     border-radius: 5px;
     margin-top: 5px;
     padding: 5px 10px;
+    font-weight: 600;
 }
 .title
 {
@@ -113,7 +115,7 @@ font-size: 20px;
 /* END OF HEADER*/
 
 
-/* BEGGINING OF CARDS*/
+/* BEGINNING OF CARDS*/
 
 
 .segunda-parte
@@ -147,7 +149,7 @@ max-width: 140px;
 flex-wrap: wrap;
 font-size: 15px;
 text-align: center;
-padding-bottom: 60px;
+padding-bottom: 40px;
 }
 
 .t1, .t2, .t3, .t4
@@ -164,8 +166,8 @@ border-radius: 20px;
 
 .quote
 {
-background-color: #CED89E;
-padding: 60px 0;
+background-color: #76BA99;
+padding: 100px 0;
 display: flex;
 flex: 1;
 flex-direction: column;
@@ -192,15 +194,53 @@ align-items: center;
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* END OF QUOTES */
+
+/* BEGINNING OF SIGN-UP */
+
+.sign-up
+{
+display: flex;
+padding: 90px ;
+justify-content: center;
+}
+
+.sign-up-content
+{
+    background-color: #084754;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: center;
+    gap: 150px;
+    border-radius: 8px;
+}
+
+.sign-up-title
+{
+    color: bisque;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.sign-up-sub
+{
+    margin: 0;
+    color: bisque;
+
+}
+
+.sign-up-button
+{
+    padding: 0px 30px;
+    color: bisque;
+    background-color: #084754;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* END OF SIGN-UP */
